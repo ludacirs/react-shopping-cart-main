@@ -9,7 +9,7 @@ export interface Product {
   imageUrl: string;
 }
 
-export interface GetProdutResponse extends Product {}
+export interface GetProductResponse extends Product {}
 
 export interface PostProductRequest {
   product: Omit<Product, "id">;
